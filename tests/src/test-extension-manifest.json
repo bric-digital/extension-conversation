@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Webmunk List Utilities Test Extension",
+  "version": "1.0.0",
+  "description": "Test extension for webmunk-core list utilities",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "test-popup.html"
+  },
+  "background": {
+    "service_worker": "test-service-worker.js",
+    "type": "module"
+  }
+}
