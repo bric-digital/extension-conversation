@@ -21,6 +21,10 @@ export interface AISummary {
 
 export class DateString {
   value:string
+
+  constructor(value) {
+    this.value = value
+  }
 }
 
 export interface NewsBlurb {
