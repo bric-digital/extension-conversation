@@ -49,7 +49,7 @@ export interface Search {
   platform:string,
   'query*':string,
   type:string,
-  result:Result[],
+  results:Result[],
   news?:NewsBlurb[],
   aiSummaries?:AISummary[],
 }
