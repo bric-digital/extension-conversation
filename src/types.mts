@@ -1,7 +1,14 @@
+export interface Citation {
+  source:string,
+  title:string,
+  url?:string,
+}
+
 export interface AISummary {
   query:string,
   content:string,
   platform:string,
+  citations?: Citation[],
   metadata?: any,
 }
 
@@ -11,6 +18,7 @@ export interface NewsBlurb {
   authors:string[],
   summary?:string,
   url?:string,
+  citations?: Citation[],
 }
 
 export interface Result {
@@ -36,6 +44,7 @@ export interface Turn {
   identifier?:string,
   search?:Search,
   metadata:any,
+  citations?: Citation[]
 }
 
 export interface Conversation {
