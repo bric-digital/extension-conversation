@@ -1,3 +1,10 @@
+export interface Position {
+  top:number,
+  left:number,
+  width:number,
+  height:number,
+}
+
 export interface Citation {
   source:string,
   title:string,
@@ -12,13 +19,19 @@ export interface AISummary {
   metadata?: any,
 }
 
+export class DateString {
+  value:string
+}
+
 export interface NewsBlurb {
   headline:string,
+  posted:DateString,
   source:string,
   authors:string[],
   summary?:string,
   url?:string,
   citations?: Citation[],
+  position?:Position,
 }
 
 export interface Result {
