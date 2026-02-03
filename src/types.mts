@@ -40,7 +40,7 @@ export interface NewsBlurb {
 
 export interface Result {
   title:string,
-  link:string,
+  url:string,
   preview:string,
   index:number,
   metadata?:any,
