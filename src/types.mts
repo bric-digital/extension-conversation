@@ -25,6 +25,10 @@ export class DateString {
   constructor(value) {
     this.value = value
   }
+
+  getAttr() {
+    return this.value;
+  }
 }
 
 export interface NewsBlurb {
