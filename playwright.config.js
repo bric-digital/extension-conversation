@@ -1,7 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 /**
- * Playwright configuration for webmunk list utilities tests
+ * Playwright configuration for REX types tests
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({

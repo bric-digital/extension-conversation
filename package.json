@@ -1,21 +1,21 @@
 {
-    "name": "@bric/extension-conversation",
+    "name": "@bric/rex-types",
     "version": "0.0.1",
-    "description": "Extension-building module defining conversational data types for recording inter-personal or inter-machine exchanges.",
+    "description": "REX module defining conversational data types for recording inter-personal or inter-machine exchanges.",
     "keywords": [
         "extension",
-        "webmunk"
+        "rex"
     ],
     "author": "Behavioral Research Innovation Center",
     "type": "module",
     "main": "index.mts",
-    "homepage": "https://github.com/bric-digital/extension-conversation",
+    "homepage": "https://github.com/bric-digital/rex-types",
     "bugs": {
-        "url": "https://github.com/bric-digital/extension-conversation/issues"
+        "url": "https://github.com/bric-digital/rex-types/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bric-digital/extension-conversation.git"
+        "url": "git+https://github.com/bric-digital/rex-types.git"
     },
     "exports": {
         "./types": "./src/types.mts"

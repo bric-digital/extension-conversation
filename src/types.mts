@@ -16,7 +16,7 @@ export interface AISummary {
   'content*':string,
   platform:string,
   citations?:Citation[],
-  'metadata*'?:any,
+  'metadata*'?:any, // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
 export class DateString {
@@ -47,7 +47,7 @@ export interface Result {
   url:string,
   preview:string,
   index:number,
-  metadata?:any,
+  metadata?:any, // eslint-disable-line @typescript-eslint/no-explicit-any
 }
 
 export interface Search {
@@ -65,7 +65,7 @@ export interface Turn {
   'content*':string,
   identifier?:string,
   search?:Search,
-  'metadata*'?:any,
+  'metadata*'?:any, // eslint-disable-line @typescript-eslint/no-explicit-any
   citations?: Citation[]
 }
 
@@ -75,5 +75,5 @@ export interface Conversation {
   identifier:string,
   started:DateString,
   ended?:DateString,
-  metadata?:any,
+  metadata?:any, // eslint-disable-line @typescript-eslint/no-explicit-any
 }

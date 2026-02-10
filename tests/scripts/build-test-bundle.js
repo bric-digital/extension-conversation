@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Build script to bundle list-utilities.mts for browser testing
+ * Build script to bundle rex-types for browser testing
  * Uses esbuild to create a single browser-compatible bundle
  */
 
@@ -12,7 +12,7 @@ import { dirname, join } from 'path'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
-const inputFile = join(__dirname, '../../src/browser.mts')
+const inputFile = join(__dirname, '../../src/types.mts')
 const outputFile = join(__dirname, '../src/build/browser.bundle.js')
 
 try {
