@@ -66,7 +66,8 @@ export interface Turn {
   identifier?:string,
   search?:Search,
   'metadata*'?:any, // eslint-disable-line @typescript-eslint/no-explicit-any
-  citations?: Citation[]
+  citations?: Citation[],
+  parent?:string,
 }
 
 export interface Conversation {
@@ -76,5 +77,4 @@ export interface Conversation {
   started:DateString,
   ended?:DateString,
   metadata?:any, // eslint-disable-line @typescript-eslint/no-explicit-any
-  parent?:string,
 }
