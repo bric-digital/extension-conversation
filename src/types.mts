@@ -76,4 +76,5 @@ export interface Conversation {
   started:DateString,
   ended?:DateString,
   metadata?:any, // eslint-disable-line @typescript-eslint/no-explicit-any
+  parent?:string,
 }
